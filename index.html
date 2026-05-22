@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InAmigos Foundation - Empowering Lives, Enabling Dreams</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <div class="container navbar">
+            <a href="#" class="logo">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="currentColor"/>
+                        <path d="M12 2V6M12 18V22M2 12H6M18 12H22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+                <span class="logo-text">InAmigos <span class="accent-text">Foundation</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#projects" class="nav-link">Our Projects</a>
+                <a href="#impact" class="nav-link">Social Impact</a>
+                <a href="#volunteer" class="nav-link">Get Involved</a>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Theme Toggle Button -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <span class="sun-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </span>
+                    <span class="moon-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </span>
+                </button>
+                
+                <a href="#volunteer" class="btn btn-primary nav-cta">Support Us</a>
+                
+                <!-- Mobile Menu Button -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12" class="line-mid"></line>
+                        <line x1="3" y1="6" x2="21" y2="6" class="line-top"></line>
+                        <line x1="3" y1="18" x2="21" y2="18" class="line-bottom"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="badge-pill">#InAmigos Foundation</div>
+                    <h1 class="hero-title">Empowering Communities. <span class="gradient-text">Enabling Dreams.</span></h1>
+                    <p class="hero-desc">
+                        A registered Section 8 non-profit organization dedicated to fostering sustainable social growth through ground-level action in education, hunger alleviation, women's empowerment, environmental conservation, and animal welfare.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#volunteer" class="btn btn-primary btn-lg">Volunteer with Us</a>
+                        <a href="#projects" class="btn btn-outline btn-lg">Explore Projects</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-image-wrapper">
+                        <!-- Custom Hero Banner Image -->
+                        <img src="assets/hero_illustration.png" alt="InAmigos Foundation Social Work Illustration" class="hero-img">
+                        <div class="floating-card c-1">
+                            <span class="fc-icon">🥗</span>
+                            <span class="fc-text">50K+ Meals Served</span>
+                        </div>
+                        <div class="floating-card c-2">
+                            <span class="fc-icon">🌱</span>
+                            <span class="fc-text">20K+ Trees Planted</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-waves">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,8.75,57.05,18.3,87.43,26.54,173,50,253,67.2,321.39,56.44Z" class="wave-fill"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="about-section scroll-reveal">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle">Who We Are</span>
+                    <h2 class="section-title">Driving Real Change from the Grassroots</h2>
+                    <p class="section-desc mx-auto">
+                        Founded on September 23, 2020, by Mr. Govind Shukla, InAmigos Foundation is licensed by the Central Government of India to work towards community welfare, educational upliftment, and environmental sustainability.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-info">
+                        <h3>Our Purpose & Mission</h3>
+                        <p>
+                            At InAmigos Foundation, we believe that real, lasting change happens when communities are empowered from within. Our efforts span multiple critical domains, integrating direct relief campaigns (like nutrition distribution) with structural developmental support (like skill workshops and educational facilities).
+                        </p>
+                        <p>
+                            Operating with complete transparency, absolute passion, and zero bias, our network of young interns and volunteers operates nationwide to solve real-world problems.
+                        </p>
+                        
+                        <div class="credibility-badges">
+                            <div class="badge-item">
+                                <span class="badge-icon">🏛️</span>
+                                <div>
+                                    <span class="badge-title">Section 8 Registered</span>
+                                    <span class="badge-subtitle">Govt. Licensed NGO</span>
+                                </div>
+                            </div>
+                            <div class="badge-item">
+                                <span class="badge-icon">📜</span>
+                                <div>
+                                    <span class="badge-title">80G & 12A Certified</span>
+                                    <span class="badge-subtitle">Tax-Exempt Donations</span>
+                                </div>
+                            </div>
+                            <div class="badge-item">
+                                <span class="badge-icon">🔍</span>
+                                <div>
+                                    <span class="badge-title">NITI Aayog Registered</span>
+                                    <span class="badge-subtitle">Verified NGO Darpan</span>
+                                </div>
+                            </div>
+                            <div class="badge-item">
+                                <span class="badge-icon">✓</span>
+                                <div>
+                                    <span class="badge-title">ISO 9001:2015</span>
+                                    <span class="badge-subtitle">Certified Quality Management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-values">
+                        <div class="value-card">
+                            <div class="val-num">01</div>
+                            <h4>Transparency</h4>
+                            <p>Every donation and project action is audited and shared openly with our patrons and partners.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="val-num">02</div>
+                            <h4>Youth Leadership</h4>
+                            <p>We provide internships (#ProjectVikas) to harness the creative power of youth for social impact.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="val-num">03</div>
+                            <h4>Grassroots Direct Action</h4>
+                            <p>We work directly on-ground in communities rather than operating solely through intermediaries.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="val-num">04</div>
+                            <h4>Eco-Social Harmony</h4>
+                            <p>We balance community support, environmental recovery, and animal care under a single umbrella.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section scroll-reveal">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle">Our Initiatives</span>
+                    <h2 class="section-title">Our Ongoing NGO Projects</h2>
+                    <p class="section-desc mx-auto">
+                        We run custom-designed projects targeting key socio-economic and environmental challenges. Use the filters below to explore our core drives.
+                    </p>
+                </div>
+
+                <!-- Filter Controls -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="humanitarian">Humanitarian Aid</button>
+                    <button class="filter-btn" data-filter="education">Education</button>
+                    <button class="filter-btn" data-filter="environment">Environment</button>
+                    <button class="filter-btn" data-filter="welfare">Welfare & Development</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Project 1: SEVA -->
+                    <div class="project-card" data-category="humanitarian">
+                        <div class="project-img-box">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Project SEVA</span>
+                            </div>
+                            <div class="project-icon-placeholder">🥗</div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3>Project SEVA</h3>
+                            <p class="project-summary">Focuses on food security and clothing dignity by distributing healthy meals and fresh apparel to underprivileged daily wage workers and homeless families.</p>
+                            <div class="project-stats-mini">
+                                <span class="stat-num">50,000+</span>
+                                <span class="stat-label">Meals Distributed</span>
+                            </div>
+                            <div class="project-details-expanded">
+                                <strong>Social Impact:</strong> Food insecurity leads to malnutrition, especially in urban slums. Project SEVA volunteers host regular, planned distributions at construction sites, slums, and public shelters to ensure no one goes to bed hungry.
+                            </div>
+                            <button class="btn btn-text toggle-project-details">Learn More <span class="arrow">&rarr;</span></button>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: BACHPANSHALA -->
+                    <div class="project-card" data-category="education">
+                        <div class="project-img-box">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Project BACHPANSHALA</span>
+                            </div>
+                            <div class="project-icon-placeholder">🎒</div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3>Project BACHPANSHALA</h3>
+                            <p class="project-summary">Bridges educational gaps for underprivileged children by providing free basic education, homework support, and essential digital literacy training.</p>
+                            <div class="project-stats-mini">
+                                <span class="stat-num">1,200+</span>
+                                <span class="stat-label">Children Educated</span>
+                            </div>
+                            <div class="project-details-expanded">
+                                <strong>Social Impact:</strong> Education is the ultimate equalizer. By setting up physical study circles and providing digital learning kits, we enable kids from poor backgrounds to stay in school and excel in modern technical subjects.
+                            </div>
+                            <button class="btn btn-text toggle-project-details">Learn More <span class="arrow">&rarr;</span></button>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: UDAAN -->
+                    <div class="project-card" data-category="welfare">
+                        <div class="project-img-box">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Project UDAAN</span>
+                            </div>
+                            <div class="project-icon-placeholder">🚀</div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3>Project UDAAN</h3>
+                            <p class="project-summary">Empowers women and adolescent girls through vocational skill development, hygiene awareness drives, and career mentorship programs.</p>
+                            <div class="project-stats-mini">
+                                <span class="stat-num">450+</span>
+                                <span class="stat-label">Women Empowered</span>
+                            </div>
+                            <div class="project-details-expanded">
+                                <strong>Social Impact:</strong> Udaan targets financial independence. We conduct sewing, computer applications, and handicraft training, alongside distributing reusable sanitary kits to promote menstrual hygiene and break societal taboos.
+                            </div>
+                            <button class="btn btn-text toggle-project-details">Learn More <span class="arrow">&rarr;</span></button>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: PRAKRITI -->
+                    <div class="project-card" data-category="environment">
+                        <div class="project-img-box">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Project PRAKRITI</span>
+                            </div>
+                            <div class="project-icon-placeholder">🌱</div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3>Project PRAKRITI</h3>
+                            <p class="project-summary">An environmental restoration drive organizing massive tree plantation activities, waste management campaigns, and green-lifestyle workshops.</p>
+                            <div class="project-stats-mini">
+                                <span class="stat-num">20,000+</span>
+                                <span class="stat-label">Saplings Planted</span>
+                            </div>
+                            <div class="project-details-expanded">
+                                <strong>Social Impact:</strong> Combating climate change requires immediate local action. Project Prakriti engages school students and corporate teams in planting native trees, clean-up drives, and distributing paper bags to replace plastics.
+                            </div>
+                            <button class="btn btn-text toggle-project-details">Learn More <span class="arrow">&rarr;</span></button>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: JEEV -->
+                    <div class="project-card" data-category="humanitarian">
+                        <div class="project-img-box">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Project JEEV</span>
+                            </div>
+                            <div class="project-icon-placeholder">🐕</div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3>Project JEEV</h3>
+                            <p class="project-summary">Dedicated to animal welfare by feeding, rescuing, and arranging veterinary healthcare for stray dogs, cats, and birds.</p>
+                            <div class="project-stats-mini">
+                                <span class="stat-num">50+</span>
+                                <span class="stat-label">Animals Fed Daily</span>
+                            </div>
+                            <div class="project-details-expanded">
+                                <strong>Social Impact:</strong> Stray animals suffer from extreme hunger and vehicle collisions. Project Jeev volunteers run daily feeding circuits, treat wounds on-site, and collaborate with shelters for foster care and adoption.
+                            </div>
+                            <button class="btn btn-text toggle-project-details">Learn More <span class="arrow">&rarr;</span></button>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: VIKAS -->
+                    <div class="project-card" data-category="welfare">
+                        <div class="project-img-box">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Project VIKAS</span>
+                            </div>
+                            <div class="project-icon-placeholder">📈</div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3>Project VIKAS</h3>
+                            <p class="project-summary">Our flagship internship program designed to train youth in social work, leadership, digital marketing, content writing, and management skills.</p>
+                            <div class="project-stats-mini">
+                                <span class="stat-num">800+</span>
+                                <span class="stat-label">Interns Trained</span>
+                            </div>
+                            <div class="project-details-expanded">
+                                <strong>Social Impact:</strong> Project Vikas bridges the gap between academic theory and community action. Interns lead digital campaigns (#InAmigos), compose impact articles, manage programs, and build critical professional skills.
+                            </div>
+                            <button class="btn btn-text toggle-project-details">Learn More <span class="arrow">&rarr;</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Impact Counter Section -->
+        <section id="impact" class="impact-section">
+            <div class="container">
+                <div class="section-header text-center light-text">
+                    <span class="subtitle text-amber">Our Footprint</span>
+                    <h2 class="section-title">Measurable Impact in Numbers</h2>
+                    <p class="section-desc mx-auto">
+                        Through the combined effort of our volunteers, content writers, and kind donors, we are driving measurable, positive changes across India.
+                    </p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper">🍲</div>
+                        <h3 class="counter-number" data-target="50000">0</h3>
+                        <p class="stat-title">Meals Distributed</p>
+                        <p class="stat-subtitle">Ensuring nutritional security</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper">🌳</div>
+                        <h3 class="counter-number" data-target="20000">0</h3>
+                        <p class="stat-title">Saplings Planted</p>
+                        <p class="stat-subtitle">Enhancing green canopy</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper">🎓</div>
+                        <h3 class="counter-number" data-target="1200">0</h3>
+                        <p class="stat-title">Children Educated</p>
+                        <p class="stat-subtitle">Bridging basic learning gaps</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper">🤝</div>
+                        <h3 class="counter-number" data-target="800">0</h3>
+                        <p class="stat-title">Active Interns</p>
+                        <p class="stat-subtitle">Youth driving social change</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial slider / Intern Voice -->
+        <section class="testimonial-section scroll-reveal">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle">Intern Voices</span>
+                    <h2 class="section-title">What Our Volunteers Say</h2>
+                    <p class="section-desc mx-auto">
+                        Hear from the interns and content creators who drive our campaigns and share our vision using #InAmigos.
+                    </p>
+                </div>
+
+                <div class="testimonial-slider-container">
+                    <div class="testimonial-track" id="testimonialTrack">
+                        <!-- Slide 1 -->
+                        <div class="testimonial-slide active">
+                            <div class="test-icon">“</div>
+                            <p class="test-quote">
+                                Working with InAmigos Foundation under Project Vikas has been an eye-opening experience. I worked as a content writer, writing awareness articles and campaigns. It taught me how powerful digital content is in raising support.
+                            </p>
+                            <div class="test-user">
+                                <div class="user-avatar">AS</div>
+                                <div>
+                                    <span class="user-name">Anjali Sharma</span>
+                                    <span class="user-role">Content Writing Intern</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 2 -->
+                        <div class="testimonial-slide">
+                            <div class="test-icon">“</div>
+                            <p class="test-quote">
+                                I participated in Project Prakriti tree plantation drives. Seeing the community come together to plant trees and clean up public parks was inspiring. InAmigos actually executes tasks on the ground with pure transparency!
+                            </p>
+                            <div class="test-user">
+                                <div class="user-avatar">RK</div>
+                                <div>
+                                    <span class="user-name">Rahul Kumar</span>
+                                    <span class="user-role">On-Ground Volunteer</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="testimonial-slide">
+                            <div class="test-icon">“</div>
+                            <p class="test-quote">
+                                Helping under Project Bachpanshala allowed me to teach digital tools to kids who had never touched a computer. The sparkle in their eyes when they typed their names for the first time is something I will cherish forever.
+                            </p>
+                            <div class="test-user">
+                                <div class="user-avatar">PP</div>
+                                <div>
+                                    <span class="user-name">Priya Patel</span>
+                                    <span class="user-role">Education Mentor Intern</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slider Controls -->
+                    <div class="slider-controls">
+                        <button class="control-btn prev" id="prevTestimonial" aria-label="Previous testimonial">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        </button>
+                        <div class="slider-dots" id="sliderDots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                        </div>
+                        <button class="control-btn next" id="nextTestimonial" aria-label="Next testimonial">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Volunteer Registration / Contact Form -->
+        <section id="volunteer" class="volunteer-section scroll-reveal">
+            <div class="container volunteer-grid">
+                <div class="volunteer-info">
+                    <span class="subtitle">Join the Movement</span>
+                    <h2>Make a Difference Today</h2>
+                    <p class="lead-text">
+                        Whether you want to offer professional skills as an intern, work directly in field projects, or support our efforts, your support is invaluable.
+                    </p>
+                    
+                    <ul class="benefit-list">
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <div>
+                                <strong>Professional Growth:</strong> Get verified experience letters, LinkedIn recommendations, and leadership mentorship.
+                            </div>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <div>
+                                <strong>Community Impact:</strong> Directly improve children's schooling, animal rehabilitation, and environmental health.
+                            </div>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <div>
+                                <strong>Flexible Roles:</strong> Work remotely in social media, design, content creation, or join our field drives.
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="social-hashtag-box">
+                        <p>Share our work and connect with our team on social networks using:</p>
+                        <div class="hashtags">
+                            <span class="tag-link">#InAmigos</span>
+                            <span class="tag-link">#YouthInAction</span>
+                            <span class="tag-link">#NGOIndia</span>
+                            <span class="tag-link">#SocialImpact</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Volunteer Signup Form Container -->
+                <div class="form-container">
+                    <div id="volunteerFormView">
+                        <h3>Become a Volunteer / Intern</h3>
+                        <p>Fill out this form and our operations coordinator will get back to you in 24 hours.</p>
+                        
+                        <form id="volunteerForm" novalidate>
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" placeholder="Enter your full name" required>
+                                <span class="error-msg" id="nameError">Name is required.</span>
+                            </div>
+                            
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="emailAddr">Email Address</label>
+                                    <input type="email" id="emailAddr" placeholder="name@example.com" required>
+                                    <span class="error-msg" id="emailError">Please enter a valid email.</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phoneNum">Phone Number</label>
+                                    <input type="tel" id="phoneNum" placeholder="10-digit number" required>
+                                    <span class="error-msg" id="phoneError">Enter a valid 10-digit number.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="projectInterest">Project of Interest</label>
+                                <select id="projectInterest" required>
+                                    <option value="" disabled selected>Select an initiative...</option>
+                                    <option value="seva">Project SEVA (Humanitarian/Food/Clothes)</option>
+                                    <option value="bachpanshala">Project BACHPANSHALA (Underprivileged Education)</option>
+                                    <option value="udaan">Project UDAAN (Women Empowerment & Skills)</option>
+                                    <option value="prakriti">Project PRAKRITI (Eco-Conservation & Planting)</option>
+                                    <option value="jeev">Project JEEV (Stray Animal Welfare)</option>
+                                    <option value="vikas">Project VIKAS (Digital & Content Internships)</option>
+                                </select>
+                                <span class="error-msg" id="projectError">Please choose a project.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="messageText">Why do you want to join us? (Optional)</label>
+                                <textarea id="messageText" rows="3" placeholder="Tell us how you'd like to contribute..."></textarea>
+                            </div>
+
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="termsCheck" required>
+                                <label for="termsCheck">I agree to dedicate my time and work transparently with InAmigos rules.</label>
+                                <span class="error-msg" id="termsError">You must agree to the statement.</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                                <span class="btn-text">Submit Application</span>
+                                <span class="spinner" id="formSpinner"></span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Success State View (Hidden initially) -->
+                    <div id="volunteerSuccessView" class="success-view hide">
+                        <div class="success-circle">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Application Submitted!</h3>
+                        <p>Thank you for showing interest in joining <strong>InAmigos Foundation</strong>. A member of Mr. Govind Shukla's coordination team will review your credentials and contact you via email shortly.</p>
+                        <div class="success-summary">
+                            <p><strong>Name:</strong> <span id="summaryName"></span></p>
+                            <p><strong>Initiative:</strong> <span id="summaryProject"></span></p>
+                            <p><strong>Application Reference:</strong> <span id="refCode"></span></p>
+                        </div>
+                        <button class="btn btn-outline btn-full" id="resetFormBtn">Submit Another Response</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col-info">
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="4" fill="currentColor"/>
+                        </svg>
+                    </span>
+                    <span class="logo-text">InAmigos <span class="accent-text">Foundation</span></span>
+                </a>
+                <p class="footer-desc">
+                    Registered Section 8 Non-Government Organization (NGO). Building sustainable community platforms and promoting social parity.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://inamigosfoundation.org.in" target="_blank" aria-label="Website">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#projects">Our Initiatives</a></li>
+                    <li><a href="#impact">Social Impact</a></li>
+                    <li><a href="#volunteer">Join Us / Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>NGO Registrations</h4>
+                <ul class="footer-credentials-list">
+                    <li><strong>Registration:</strong> Section 8 (U85300CT2020NPL010729)</li>
+                    <li><strong>NITI Aayog:</strong> CT/2020/0268532</li>
+                    <li><strong>Tax Benefits:</strong> 80G & 12A Certified</li>
+                    <li><strong>Compliance:</strong> ISO 9001:2015</li>
+                    <li><strong>CSR Status:</strong> CSR-1 Registered</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul class="footer-contacts">
+                    <li>
+                        <span class="icon">📍</span>
+                        <span>Raipur, Chhattisgarh, India - 492001</span>
+                    </li>
+                    <li>
+                        <span class="icon">✉️</span>
+                        <a href="mailto:info@inamigosfoundation.org.in">info@inamigosfoundation.org.in</a>
+                    </li>
+                    <li>
+                        <span class="icon">📞</span>
+                        <a href="tel:+917000XXXXXX">+91 7000X XXXXX</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2026 InAmigos Foundation. All Rights Reserved. Created as an Internship Awareness Campaign project.</p>
+                <p>#InAmigos - Bridging Gaps, Fostering Hope</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript Script -->
+    <script src="script.js"></script>
+</body>
+</html>
